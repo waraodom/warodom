@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/originals/b6/91/da/b691da046eb81bcc8cc75a29a13a2143.jpg);
+  }
+ .main{
+    
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+ }
+ input{
+     border: 2px solid lightgreen;
+     height: 20px;
+     width: 200px;
+     border-radius: 60PX ;
+     padding: 5px;
+ }
+ nav{
+     width:100%;
+     background: rgba(61, 138, 238, 0.897);
+     overflow:auto;
+ }
+ ul{
+     padding:0;
+     margin:0 0 0 150px;
+     list-style: none;
+ }
+ li{
+     float:left;
+ }
+ .logo{
+     position: absolute;
+     margin-top: 15px;
+     margin-left: 20px;
+     font-family: 'Lobster', cursive;
+ }
+ nav a{
+     width: 100px;
+     display:block;
+     padding:20px 15px;
+     text-decoration: none;
+     font-family: "Playfair Display";
+     letter-spacing: 3px;
+     color:black;
+     text-align: center;
+ }
+ nav a:hover{
+     background:wheat;
+     transition:0.5s;
+     text-transform: uppercase;
+ }
+.sidenav {
+    height: 100%;
+    width: 130px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color:rgba(158, 156, 156, 0.281);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+.sidenav a {
+    width: 100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration: none;
+    font-family: "Playfair Display";
+    letter-spacing: 3px;
+    color: black;
+
+  }
+.sidenav a:hover {
+    background:wheat;
+    transition:0.5s;
+    text-transform: uppercase;
+  }
+#columns {
+    font-family: 'Lobster', cursive;
+    column-width: 250px;
+    column-gap: 15px;
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+#columns figure{
+    background: lightyellow;    
+    border: 2px solid black;
+    box-shadow: 0 1px 2px black;
+    margin: 0 2px 15px;
+    padding: 15px;
+    padding-bottom: 10px;
+    transition: .4s ease-in-out;
+}
+#columns figure img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+#columns:hover figure:not(:hover){
+    opacity: 0.5;
+}
+.button {
+    background-color: lightblue; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Playfair Display";
+    margin: 4px 2px;
+    cursor: pointer;
+  }
